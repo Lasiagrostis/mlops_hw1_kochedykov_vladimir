@@ -1,0 +1,16 @@
+cmd: python src/prepare.py
+deps:
+- path: data/raw/titanic.csv
+  hash: md5
+  md5: 61fdd54abdbf6a85b778e937122e1194
+  size: 60302
+- path: src/prepare.py
+  hash: md5
+  md5: a941c32da288f2f6d22e7057d639494d
+  size: 1263
+outs:
+- path: data/processed
+  hash: md5
+  md5: eee45acc87067046af29058e7b24f254.dir
+  size: 21534
+  nfiles: 2

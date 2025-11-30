@@ -1,0 +1,16 @@
+cmd: python src/train.py
+deps:
+- path: data/processed
+  hash: md5
+  md5: eee45acc87067046af29058e7b24f254.dir
+  size: 21534
+  nfiles: 2
+- path: src/train.py
+  hash: md5
+  md5: 7ba1dfad37bf85dbb6a69ce18acaf819
+  size: 1921
+outs:
+- path: model/model.pkl
+  hash: md5
+  md5: 090f4d30fa7a4dc9a3dd16faf436f403
+  size: 6989
