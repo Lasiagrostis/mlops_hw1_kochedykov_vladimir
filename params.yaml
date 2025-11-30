@@ -1,0 +1,18 @@
+data:
+  raw_path: "data/raw/titanic.csv"
+  processed_path: "data/processed/"
+
+config:
+  split_ratio: 0.2
+  random_state: 42
+
+model_params:
+  criterion: "gini"
+  max_depth: 6
+  min_samples_split: 4
+
+model:
+  path: "model/model.pkl"
+
+mlflow:
+  experiment_name: "titanic-experiment"
